@@ -1,8 +1,23 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+{
+    "meta": {
+        "txnId": "858d28d0-1a0b-4ac8-b783-976dd65db03a",
+        "cached": false,
+        "status": "SUCCESS",
+        "api": {
+            "provider": "http://localhost:8080/api/v3/uniqueid/sth"
+        },
+        "requestTime": 1502412166027,
+        "responseId": "c94b9b55-1a17-4588-9ed9-172f57db145d",
+        "responseTime": 1502412166043,
+        "timeTakenMillis": 15
+    },
+    "data": {
+        "Id": 2,
+        "id": 2
+    }
+}
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
